@@ -3,18 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Room
+  - Wall
+  - Enemy
+  - RoomDoor
+  - Floor
+  - Corner
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - Enemy
+  - Door
+  - Floor
   - 
   - 
   - 
@@ -40,4 +46,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3155258771
+    locked: 0
+  - name: Projectile
+    uniqueID: 3678501797
+    locked: 0
+  - name: Player
+    uniqueID: 2616554411
+    locked: 0
+  - name: Enemy
+    uniqueID: 2173568443
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1421353527
+    locked: 0
+  - name: Wall
+    uniqueID: 1026034331
+    locked: 0
+  - name: Ground
+    uniqueID: 1743481781
     locked: 0

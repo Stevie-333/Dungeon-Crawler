@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a7f4710bfeab534aa2ea124b975449a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerPrefab: {fileID: 1598924100517938869, guid: 30ce08c8d76b7af4baafa9612cfe617c, type: 3}
+  - floorTilePrefab: {fileID: 4261023519930015687, guid: 835f8817020a72044b1a0ad6c33060c8, type: 3}
+  - doorPrefab: {fileID: 4716547047770409259, guid: ffae338195476f842ab1ba0c15fa886d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
