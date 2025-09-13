@@ -68,8 +68,6 @@ MonoBehaviour:
     height: 0
   RoomIndex: 0
   WallTilemap: {fileID: 8939685938182815853}
-  floorTilemap: {fileID: 227596760316791971}
-  wallTilemap: {fileID: 8939685938182815853}
   doorwayTile: {fileID: 11400000, guid: 1f98f6970b7fce24a97d80bfb07728b6, type: 2}
 --- !u!1 &3272526238665055535
 GameObject:
@@ -4965,7 +4963,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -4993,8 +4991,6 @@ MonoBehaviour:
     height: 0
   RoomIndex: 0
   WallTilemap: {fileID: 0}
-  floorTilemap: {fileID: 0}
-  wallTilemap: {fileID: 0}
   doorwayTile: {fileID: 0}
 --- !u!1 &3908981320864299578
 GameObject:
@@ -6170,7 +6166,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

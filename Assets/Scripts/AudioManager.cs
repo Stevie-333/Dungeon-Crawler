@@ -47,7 +47,7 @@ public void PlayPlayerAttack()
         musicSource.Play();
     }
 
-    // ✅ Play SFX without cutting off others
+    // Play SFX without cutting off others
     public void PlaySFX(AudioClip clip, float volume = 1f)
     {
         if (clip == null) return;

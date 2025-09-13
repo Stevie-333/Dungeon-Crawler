@@ -48,6 +48,9 @@ public class WinScreen : MonoBehaviour
         if (loseScreen != null && loseScreen.panel != null)
             loseScreen.panel.SetActive(false);
 
+        if (winPanel != null)
+            winPanel.SetActive(false);
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
